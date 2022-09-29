@@ -218,6 +218,7 @@ int main()
     }
     levelOrderTraversal(root,0);
     cout<<endl;
+cout<<"Inorder traversal "<<endl;
     inorderTraversal(root);
     cout<<endl;
     cout<<searchInBST(root,2);
